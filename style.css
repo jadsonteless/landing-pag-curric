@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+
+.descriptions p{
+    font-size: 16px;
+}
+.filho1{
+    height: 25px;
+    width: 10vw;
+    display: inline-block;
+    color: black;
+    background-color: black;
+}
+
+.filho2{
+    height: 25px;
+    width: 5vw;
+    display: inline-block;
+    color: #29a8a6;
+    background-color: #29a8a6;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+button {        
+    cursor: pointer;
+    border: none;
+}
+
+button, input, textarea {
+    outline: none;
+}
