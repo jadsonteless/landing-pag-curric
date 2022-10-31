@@ -5,13 +5,19 @@
 .titulo {
     text-align: center;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 .descriptions p{
     font-size: 16px;
 }
 .topico{
-    margin: 0 15px 0 15px;
+    margin: 20px 15px 0 15px;
+}
+.topico p{
+    padding-right: 50px;
+    margin: 20px 0 20px 100px;
+    font-size: 20px;
+    text-align: right;
 }
 .barra{
     height: 25px;
@@ -39,4 +45,7 @@
     display: inline-block;
     color: black;
     background-color: black;
+}
+.networks{
+    text-align: center;
 }
