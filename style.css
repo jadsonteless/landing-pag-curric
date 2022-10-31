@@ -1,42 +1,42 @@
-h1 {
-    text-align: center;
+*{
+    padding: 0;
+    margin: 0;
 }
-
+.titulo {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .descriptions p{
     font-size: 16px;
 }
-.filho1{
+.topico{
+    margin: 0 15px 0 15px;
+}
+.barra{
     height: 25px;
+    display: flex;
+}
+.minibarra{
+    height: 5px;
+    display: flex;
+    margin: 0;
+}
+.filho1{
     width: 10vw;
     display: inline-block;
     color: black;
     background-color: black;
 }
-
 .filho2{
-    height: 25px;
-    width: 5vw;
+    width: 05vw;
     display: inline-block;
     color: #29a8a6;
     background-color: #29a8a6;
 }
-html {
-    scroll-behavior: smooth;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul li {
-    list-style: none;
-}
-
-button {        
-    cursor: pointer;
-    border: none;
-}
-
-button, input, textarea {
-    outline: none;
+.filho3{
+    width: 100vw;
+    display: inline-block;
+    color: black;
+    background-color: black;
 }
