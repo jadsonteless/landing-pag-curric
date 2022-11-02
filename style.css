@@ -1,13 +1,24 @@
+/*Configuração geral da pagina*/
 *{
     padding: 0;
     margin: 0;
 }
+
+/*Barra inicio da page*/
+.barra{
+    height: 25px;
+    display: flex;
+}
+
+/*Titula*/
 .titulo {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 15px;
+    color: #1C1C1C;
 }
 
+/* Botões de redes sociais*/
 .networks{
     text-align: center;
 }
@@ -15,48 +26,51 @@
     width: 25px;
 }
 
+/*Config padrão dos topios*/
 .topico{
     margin: 20px 15px 0 15px;
 }
+.topico h2{
+    color: #29a8a6;
+}
 
-
+/*Topico 1- Resumo*/
 .summary p{
+    color: #1C1C1C;
     padding-right: 50px;
     margin: 20px 0 60px 100px;
     font-size: 20px;
     text-align: start;
 }
 
-
+/*Topico 2- Projetos*/
 .project p{
+    color: #1C1C1C;
     padding-right: 50px;
     margin: 20px 0 20px 100px;
     font-size: 20px;
     text-align: right;
 }
 
-
+/*Topicos 3- habilidades*/
 .skills img{
     width: 150px;
     padding-right: 0;
 }
+p.pendente{
+    color: darkgrey;
+}
 
-
+/*Topicos 4- experiências*/
 .experience dl{
+    color: #1C1C1C;
     padding-right: 50px;
     margin: 20px 0 30px 100px;
     font-size: 20px;
     text-align: initial;
 }
 
-
-p.pendente{
-    color: darkgrey;
-}
-.barra{
-    height: 25px;
-    display: flex;
-}
+/*Minibarra config*/
 .minibarra{
     height: 5px;
     display: flex;
@@ -85,4 +99,24 @@ p.pendente{
     background-color: black;
     padding: 0 0 5px 0;
     margin: 0;
+}
+
+/*Quadro de Fundo*/
+.quadrodefundo{
+    width: 100vw;
+    display: inline-block;
+    background-color: #E8E8E8;
+    padding: 0 0 250px 0;
+    margin: 0;
+}
+.quandofinal ul{
+    font-size: 18px;
+    text-size-adjust: initial;
+    color: #CD2626;
+    margin: 50px 0 0 100px;
+}
+
+.final{
+    text-align: right;
+    margin: 80px 0 0 30px;
 }
