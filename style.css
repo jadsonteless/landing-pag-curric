@@ -7,9 +7,14 @@
     padding-top: 30px;
     padding-bottom: 15px;
 }
-.descriptions p{
-    font-size: 16px;
+
+.networks{
+    text-align: center;
 }
+.networks img{
+    width: 25px;
+}
+
 .topico{
     margin: 20px 15px 0 15px;
 }
@@ -80,10 +85,4 @@ p.pendente{
     background-color: black;
     padding: 0 0 5px 0;
     margin: 0;
-}
-.networks{
-    text-align: center;
-}
-.networks img{
-    width: 25px;
 }
