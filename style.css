@@ -53,26 +53,35 @@
     text-align: right;
 }
 
-.skills{
-    text-align: center;
-}
 
 /*Topicos 3- habilidades*/
+.skills{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: center;
+}
 .skills img{
     width: 150px;
-    padding-right: 0;
+    margin: auto;
 }
+
+
 p.pendente{
     color: darkgrey;
 }
 
 /*Topicos 4- experiências*/
+.experience{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+}
 .experience dl{
     color: #1C1C1C;
-    padding-right: 50px;
-    margin: 20px 0 30px 100px;
+    margin: 20px 0 30px 0px;
     font-size: 20px;
-    text-align: initial;
 }
 
 /*Minibarra config*/
@@ -125,4 +134,13 @@ p.pendente{
     text-align: center;
     padding-bottom: 10px;
     margin: 80px 0 0 30px;
+}
+
+@media(max-width: 400px){
+    .skills{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .experience{
+        grid-template-columns: 1fr;
+    }
 }
