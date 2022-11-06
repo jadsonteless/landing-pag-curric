@@ -23,8 +23,15 @@
     text-align: center;
 }
 .networks img{
-    width: 30px;
+    width: 100px;
     height: 20px;
+}
+.networks svg{
+    display: inline-block;
+    font-size: 30px;
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
 }
 
 /*Config padrão dos topios*/
@@ -65,7 +72,6 @@
     width: 150px;
     margin: auto;
 }
-
 
 p.pendente{
     color: darkgrey;
