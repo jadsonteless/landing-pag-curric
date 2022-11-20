@@ -1,7 +1,8 @@
 /*Configuração geral da pagina*/
-*{
+* {
     padding: 0;
     margin: 0;
+    background-color: gree;
 }
 
 /*Barra inicio da page*/
